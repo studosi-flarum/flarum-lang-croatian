@@ -1,24 +1,23 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "studosi/flarum-lang-croatian",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"description": "Croatian language pack for Flarum.",
+	"homepage": "https://github.com/studosi-flarum/flarum-lang-croatian",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"hr-locale"
 	],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Studosi",
+			"email": "flarum_repo@studosi.net",
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
+		"issues": "https://github.com/studosi-flarum/flarum-lang-croatian/issues",
+		"source": "https://github.com/studosi-flarum/flarum-lang-croatian"
 	},
 	"require": {
 		"flarum/core": "^1.0"
@@ -27,7 +26,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Croatian",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +34,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "hr",
+			"title": "Hrvatski"
 		},
 		"extiverse": {
 			"discuss": ""
