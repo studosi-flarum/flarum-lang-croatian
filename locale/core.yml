@@ -339,7 +339,7 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Upravljanje
+      admin_button: Administracija
       back_to_index_tooltip: Povratak na popis rasprava
       locale_dropdown_accessible_label: Promijeni lokal foruma
       log_in_link: => core.ref.log_in
@@ -677,7 +677,7 @@ core:
     reset_your_password: Ponovno postavi zaporku
     restore: Obnovi
     save_changes: Pohrani promjene # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Postake
+    settings: Postavke
     sign_up: Pridruži se
     some_others: "{count, plural, one {# drugi} other {# drugih}}" # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Započni raspravu
