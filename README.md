@@ -6,36 +6,36 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/studosi/flarum-lang-croatian)](https://packagist.org/packages/studosi/flarum-lang-croatian/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/studosi/flarum-lang-croatian)](https://packagist.org/packages/studosi/flarum-lang-croatian/stats) 
 
-This language pack contains Croatian translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
+Ovaj jezični paket sadrži hrvatske prijevode za Flarum (kompatibilno s verzijom `1.0.0` ili novije) i popularna proširenja. Potpuni popis podržanih proširenja dostupan je u nastavku.
 
 
-## Installation
+## Instalacija
 
-You can install language pack using [Composer](https://getcomposer.org/):
+Jezični paket može se instalirati koristeći [Composer](https://getcomposer.org/):
 
 ```console
 composer require studosi/flarum-lang-croatian
 ```
 
-Then enable extension in admin panel of your Flarum.
+Nakon toga potrebno je uključiti proširenje u upravljačkoj ploči Flaruma.
 
 
-## Updating
+## Ažuriranje
 
-You can update language pack using [Composer](https://getcomposer.org/):
+Jezični paket može se ažurirati koristeći [Composer](https://getcomposer.org/):
 
 ```console
 composer update studosi/flarum-lang-croatian
 ```
 
-Then clear the cache:
+Nakon toga potrebno je prebrisati predmemoriju:
 
 ```console
 php flarum cache:clear
 ```
 
 
-## Translation status for Flarum core
+## Napredak prevođenja za Flarum jezgru
 
 | Component | Status |
 | --- | --- |
@@ -43,34 +43,34 @@ php flarum cache:clear
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/hr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/hr/) |
 
 
-## Translation status for official extensions
+## Napredak prevođenja za službena proširenja
 
 <!-- flarum-extensions-list-start -->
 <!-- flarum-extensions-list-stop -->
 
 
-## Translation status for Friends of Flarum extensions
+## Napreda prevođenja za Friends of Flarum proširenja
 
 <!-- fof-extensions-list-start -->
 <!-- fof-extensions-list-stop -->
 
 
-## Translation status for community extensions
+## Napredak prevođenja za proširenja zajednice
 
 <!-- various-extensions-list-start -->
 <!-- various-extensions-list-stop -->
 
 
-## Translation status for premium extensions
+## Napredak prevođenja za plaćena proširenja
 
 <!-- premium-extensions-list-start -->
 <!-- premium-extensions-list-stop -->
 
 
-## Credits
+## Zasluge
 
-This language pack is part of [Flarum translations collective](https://github.com/rob006-software/flarum-translations).
+Ovaj jezični paket dio je [Flarumovog prevodilačkog kolektiva](https://github.com/rob006-software/flarum-translations).
 
-Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/hr.js).
+Prijevod za Day.js može se pronaći [ovdje](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/hr.js).
 
-Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/hr/validation.php).
+Prijevod za `validation.yml` bazira se na [Laravel prijevodima](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/hr/validation.php).
