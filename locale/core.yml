@@ -412,7 +412,7 @@ core:
       now_link: Sadašnjost
       original_post_link: Izvorna objava
       unread_text: "nepročitanih objava: {count}"
-      viewing_text: "{count, plural, one {{index}. objava (od {formattedCount}} other {{index}. objava (od njih {formattedCount}}}"
+      viewing_text: "{count, plural, one {objava {index} od {formattedCount}} other {objava {index} od {formattedCount}}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
