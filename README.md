@@ -71,6 +71,6 @@ php flarum cache:clear
 
 Ovaj jezični paket dio je [Flarumovog prevodilačkog kolektiva](https://github.com/rob006-software/flarum-translations).
 
-Prijevod za Day.js može se pronaći [ovdje](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/hr.js).
+Prijevod Day.js može se pronaći [ovdje](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/hr.js).
 
-Prijevod za `validation.yml` bazira se na [Laravel prijevodima](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/hr/validation.php).
+Prijevod `validation.yml` bazira se na [Laravel prijevodima](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/hr/validation.php).
