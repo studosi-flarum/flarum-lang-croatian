@@ -14,7 +14,7 @@ flarum-flags:
     settings:
       flag_own_posts_label: Dozvoli korisnicima da prijavljuju vlastite objave
       guidelines_url_label: URL pravila zajednice
-      title: Flags postavke
+      title: Postavke prijava
 
   # Translations in this namespace are used by the forum user interface.
   forum:
