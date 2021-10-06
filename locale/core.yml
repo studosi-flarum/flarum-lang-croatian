@@ -673,7 +673,7 @@ core:
     previous_page: Prethodna stranica
     remove: Ukloni
     rename: Preimenuj
-    reply: Reply # Referenced by flarum-mentions.yml
+    reply: Odgovori # Referenced by flarum-mentions.yml
     reset_your_password: Ponovno postavi zaporku
     restore: Obnovi
     save_changes: Pohrani promjene # Referenced by flarum-suspend.yml, flarum-tags.yml
