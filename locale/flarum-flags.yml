@@ -28,7 +28,7 @@ flarum-flags:
       reason_missing_message: "Podijelite neke pojedinosti našim moderatorima, molimo."
       reason_off_topic_label: Skretanje s teme
       reason_off_topic_text: Ova objava nije relevantna za trenutnu raspravu i treba je premjestiti negdje drugdje.
-      reason_other_label: "Drugo (navedite, molimo)"
+      reason_other_label: "Drugo (obrazložite, molimo)"
       reason_spam_label: Spam
       reason_spam_text: Ova objava je oglas.
       submit_button: => flarum-flags.ref.flag_post
