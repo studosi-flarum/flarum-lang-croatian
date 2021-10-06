@@ -13,7 +13,7 @@ flarum-sticky:
   forum:
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: => flarum-sticky.ref.sticky
+      sticky_tooltip: Prilijepljeno
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
