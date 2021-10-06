@@ -169,7 +169,7 @@ core:
     permissions:
       allow_post_editing_label: Dozvoli uređivanje objava
       allow_renaming_label: Dozvoli preimenovanje
-      create_heading: Stvori
+      create_heading: Stvaranje
       delete_discussions_forever_label: Brisanje rasprava zauvijek
       delete_discussions_label: Brisanje rasprava
       delete_posts_forever_label: Brisanje objava zauvijek
