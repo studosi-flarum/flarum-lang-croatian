@@ -1,0 +1,112 @@
+flarum-tags:
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: Obriši oznaku
+      delete_tag_confirmation: "Jeste li sigurni da želite obrisati ovu oznaku? Označena rasprave NEĆE biti obrisane."
+      description_label: Opis
+      hide_label: Sakrij sa Svih rasprava
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Kratica
+      submit_button: => core.ref.save_changes
+      title: Stvori oznaku
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Upravljaj popisom oznaka dostupnih za ustrojenje rasprava.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Dozvoli uređivanje oznaka
+      bypass_tag_counts_label: Zaobilaženje zahtjeva oznaka
+      restrict_by_tag_heading: Ograničavaj oznakom
+      tag_discussions_label: Označavaj rasprave
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " do "
+      required_primary_heading: Potreban broj glavnih oznaka
+      required_primary_text: "Unesite najmanji i najveći broj glavnih oznaka kojima se smije označiti rasprava."
+      required_secondary_heading: Potreban broj sporednih oznaka
+      required_secondary_text: "Unesite najmanji i najveći broj sporednih oznaka kojima se smije označiti rasprava."
+      title: Postavke oznaka
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Oznake se koriste za ustrojavanje rasprava. Glavne oznake su nalik tradicionalnim kategorijama foruma: mogu se urediti u dvorazinsku hijerarhiju. Sporedne oznake nemaju ni hijerarhiju, ni redoslijed, i korisne su za mikro-ustroj."
+      create_primary_tag_button: Stvori glavnu oznaku
+      create_secondary_tag_button: Stvori sporednu oznaku
+      primary_heading: Glavne oznake
+      secondary_heading: Sporedne oznake
+      settings_heading: Postavke
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: Sve oznake
+      meta_title_text: => flarum-tags.ref.tags
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "{count, plural, one {Odaberite glavnu oznaku} other {Odaberite # glavnih oznaka}}"
+      choose_secondary_placeholder: "{count, plural, one {Odaberite još 1 oznaku} other {Odaberite još # oznaka}}"
+      edit_title: "Uređivanje oznaka rasprave {title}"
+      submit_button: => core.ref.okay
+      title: Odaberite oznake za vašu raspravu
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Odaberi oznake
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Uređuj oznake
+
+    header:
+      back_to_tags_tooltip: Povratak na popis oznaka
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Više...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Neoznačeno
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} označuje s {tagsAdded} i odznačava od {tagsRemoved}."
+      added_tags_text: "{username} označava s {tagsAdded}."
+      removed_tags_text: "{username} odznačava od {tagsRemoved}."
+      tags_text: "{count, plural, one {{tags} oznaka} other {{tags} oznake}}"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "Sve rasprave označene s {tag}"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Obrisana oznaka
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    name: Naziv
+    tags: Oznake
