@@ -28,7 +28,7 @@ flarum-mentions:
     # These translations are displayed beneath individual posts.
     post:
       mentioned_by_self_text: "{users} odgovarate na ovo." # Doesn't need to be pluralized to fit.
-      mentioned_by_text: "{count, plural, one {{users} odgovara na ovo.} other {{users} odgovaraju na ovo}}" # Pluralized.
+      mentioned_by_text: "{count, plural, one {{users} odgovara na ovo.} other {{users} odgovaraju na ovo.}}" # Pluralized.
       others_text: => core.ref.some_others
       quote_button: Citiraj
       reply_link: => core.ref.reply
