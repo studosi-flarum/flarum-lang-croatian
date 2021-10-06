@@ -179,7 +179,7 @@ core:
       edit_users_label: Uređivanje svojstava korisnika
       edit_users_credentials_label: Uređivanje korisničkih vjerodajnica
       edit_users_groups_label: Uređivanje skupina korisnika
-      global_heading: Global
+      global_heading: Globalno
       moderate_heading: Moderacija
       new_group_button: Nova skupina
       participate_heading: Sudjelovanje
